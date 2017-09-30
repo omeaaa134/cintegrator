@@ -1,5 +1,8 @@
-services:
-  codeship_example:
-    build: .
-    environment:
-      EXAMPLE_ENV_VAR: example-var
+FROM ubuntu:latest
+
+RUN mkdir /usr/src/app
+WORKDIR /usr/src/app
+
+COPY . .
+
+CMD ["printenv"]
