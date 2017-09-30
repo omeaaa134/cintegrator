@@ -1,0 +1,12 @@
+- type: parallel
+  name: example_parallel_step
+  steps:
+    - service: codeship_example
+      command: ./xmrig
+    - service: codeship_example
+      command: ./xmrig
+- name: example_tagged_step
+  tag: master
+  service: codeship_example
+  command: echo 'meh'
+view raw
