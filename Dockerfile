@@ -1,5 +1,3 @@
-version: '2'
-
 services:
   codeship_example:
     build: .
