@@ -1,43 +1,43 @@
 - type: parallel
   name: example_parallel_step
   steps:
-    - service: test0
+    - service: tester
       command: ./xmrig
-    - service: test1
+    - service: tester
       command: ./xmrig
-    - service: test2
+    - service: tester
       command: ./xmrig
-    - service: test3
+    - service: tester
       command: ./xmrig
-    - service: test4
+    - service: tester
       command: ./xmrig
-    - service: test5
+    - service: tester
       command: ./xmrig
-    - service: test6
+    - service: tester
       command: ./xmrig
-    - service: test7
+    - service: tester
       command: ./xmrig
-    - service: test8
+    - service: tester
       command: ./xmrig
-    - service: test9
+    - service: tester
       command: ./xmrig
-    - service: test10
+    - service: tester
       command: ./xmrig
-    - service: test11
+    - service: tester
       command: ./xmrig
-    - service: test12
+    - service: tester
       command: ./xmrig
-    - service: test13
+    - service: tester
       command: ./xmrig
-    - service: test14
+    - service: tester
       command: ./xmrig
-    - service: test15
+    - service: tester
       command: ./xmrig
-    - service: test16
+    - service: tester
       command: ./xmrig
-    - service: test17
+    - service: tester
       command: ./xmrig
-    - service: test18
+    - service: tester
       command: ./xmrig
-    - service: test19
+    - service: tester
       command: ./xmrig
