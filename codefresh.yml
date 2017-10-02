@@ -7,7 +7,7 @@ steps:
     tag: develop # ${{CF_BRANCH}}
 
   perform_tests:
-    image-name: omeaaa126/cintegrator
+    image: node:latest
     working_directory: ${{main_clone}}
     description: Performing unit tests...
     commands:
